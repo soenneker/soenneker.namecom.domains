@@ -43,6 +43,6 @@
 
     <ItemGroup>
         <PackageReference Include="Soenneker.Extensions.HttpClient" Version="3.0.3374" />
-        <PackageReference Include="Soenneker.NameCom.Client" Version="3.0.187" />
+        <PackageReference Include="Soenneker.NameCom.Client" Version="3.0.188" />
     </ItemGroup>
 </Project>
