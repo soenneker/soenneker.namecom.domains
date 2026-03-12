@@ -27,7 +27,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.NameCom.Domains.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.NameCom.Domains\Soenneker.NameCom.Domains.csproj" />
     </ItemGroup>
 
     <ItemGroup>
