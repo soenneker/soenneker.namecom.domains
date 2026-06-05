@@ -7,12 +7,21 @@ namespace Soenneker.NameCom.Domains.Responses;
 /// </summary>
 public record SearchResponse
 {
+    /// <summary>
+    /// Gets or sets domain name.
+    /// </summary>
     [JsonPropertyName("domainName")]
     public string? DomainName { get; set; }
 
+    /// <summary>
+    /// Gets or sets purchase price.
+    /// </summary>
     [JsonPropertyName("purchasePrice")]
     public double? PurchasePrice { get; set; }
 
+    /// <summary>
+    /// Gets or sets renewal price.
+    /// </summary>
     [JsonPropertyName("renewalPrice")]
     public double? RenewalPrice { get; set; }
 }

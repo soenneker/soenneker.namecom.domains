@@ -8,6 +8,9 @@ namespace Soenneker.NameCom.Domains.Responses;
 /// </summary>
 public record CheckAvailabilityResponse
 {
+    /// <summary>
+    /// Gets or sets results.
+    /// </summary>
     [JsonPropertyName("results")]
     public List<SearchResponse>? Results { get; set; }
 }

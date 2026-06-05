@@ -7,6 +7,9 @@ namespace Soenneker.NameCom.Domains.Responses;
 /// </summary>
 public record GetAuthCodeResponse
 {
+    /// <summary>
+    /// Gets or sets auth code.
+    /// </summary>
     [JsonPropertyName("authCode")]
     public string? AuthCode { get; set; }
 }
