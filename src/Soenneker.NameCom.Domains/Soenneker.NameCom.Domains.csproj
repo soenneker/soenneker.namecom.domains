@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <Description>A .NET typesafe implementation of Name.com's Domain API</Description>
+        <Description>Typed operations for listing, searching, registering, renewing, and configuring Name.com domains.</Description>
         <Version Condition="'$(BUILD_VERSION)' == ''">4.0.0</Version>
         <Version Condition="'$(BUILD_VERSION)' != ''">$(BUILD_VERSION)</Version>
         <AssemblyName>Soenneker.NameCom.Domains</AssemblyName>
