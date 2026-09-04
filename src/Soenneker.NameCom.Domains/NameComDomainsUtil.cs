@@ -12,6 +12,7 @@ using Soenneker.NameCom.Domains.Dtos;
 
 namespace Soenneker.NameCom.Domains;
 
+/// <inheritdoc cref="INameComDomainsUtil" />
 public class NameComDomainsUtil : INameComDomainsUtil
 {
     private readonly INameComClientUtil _clientUtil;
