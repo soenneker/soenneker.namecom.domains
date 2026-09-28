@@ -24,7 +24,7 @@ public class NameComDomainsUtil : INameComDomainsUtil
 
     public async ValueTask<ListDomainsResponse?> ListDomains(ListDomainsRequest request, bool test = false, CancellationToken cancellationToken = default)
     {
-        string endpoint = "domains" + request.ToQueryString();
+        string endpoint = "domains" + request.ToQueryString(NameComDomainsJsonContext.Default.ListDomainsRequest);
 
         HttpClient client = await _clientUtil.Get(test, cancellationToken).NoSync();
 
